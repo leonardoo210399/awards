@@ -61,16 +61,58 @@ Built with **TailwindCSS**, it ensures a visually stunning and fully responsive 
     ├── package-lock.json
     ├── package.json
     ├── postcss.config.js
-    ├── public/
-    │   ├── audio/
+    ├── public
+    │   ├── audio
     │   │   └── loop.mp3
-    │   ├── fonts/
-    │   ├── img/
-    │   ├── videos/
+    │   ├── fonts
+    │   │   ├── circularweb-book.woff2
+    │   │   ├── general.woff2
+    │   │   ├── robert-medium.woff2
+    │   │   ├── robert-regular.woff2
+    │   │   └── zentry-regular.woff2
+    │   ├── img
+    │   │   ├── about.webp
+    │   │   ├── contact-1.webp
+    │   │   ├── contact-2.webp
+    │   │   ├── entrance.webp
+    │   │   ├── gallery-1.webp
+    │   │   ├── gallery-2.webp
+    │   │   ├── gallery-3.webp
+    │   │   ├── gallery-4.webp
+    │   │   ├── gallery-5.webp
+    │   │   ├── jsm-logo.png
+    │   │   ├── logo.png
+    │   │   ├── play.svg
+    │   │   ├── stones.webp
+    │   │   ├── swordman-partial.webp
+    │   │   └── swordman.webp
+    │   ├── videos
+    │   │   ├── feature-1.mp4
+    │   │   ├── feature-2.mp4
+    │   │   ├── feature-3.mp4
+    │   │   ├── feature-4.mp4
+    │   │   ├── feature-5.mp4
+    │   │   ├── hero-1.mp4
+    │   │   ├── hero-2.mp4
+    │   │   ├── hero-3.mp4
+    │   │   └── hero-4.mp4
     │   └── vite.svg
-    ├── src/
-    │   ├── assets/
-    │   ├── components/
+    ├── src
+    │   ├── App.jsx
+    │   ├── assets
+    │   │   └── react.svg
+    │   ├── components
+    │   │   ├── About.jsx
+    │   │   ├── AnimatedTitle.jsx
+    │   │   ├── Button.jsx
+    │   │   ├── Contact.jsx
+    │   │   ├── Features.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── Hero.jsx
+    │   │   ├── NavBar.jsx
+    │   │   ├── RoundedCorners.jsx
+    │   │   ├── Story.jsx
+    │   │   └── VideoPreview.jsx
     │   ├── index.css
     │   └── main.jsx
     ├── tailwind.config.js
